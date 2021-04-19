@@ -9,6 +9,7 @@
 }
 
 html {
+  font-family: Raleway;
   font-size: 16px;
 }
 
@@ -27,6 +28,10 @@ blockquote,
 dl,
 dd {
   margin: 0;
+}
+
+body {
+  background: #eceff1;
 }
 
 .page-name {
@@ -50,42 +55,151 @@ dd {
 }
 
 .page-name-text {
-  font-family: Raleway;
   font-size: 1.75rem;
   color: #ffffff;
   margin: 0 75px 0 75px;
 }
 
 .product-description {
+  display: flex;
+  flex-direction: column;
   position: relative;
   z-index: -1;
   margin: -10px 0 0 0;
 }
 
-.product-info-button { 
-  margin: -34px 0 0 16px;
+.product-info-button {
+  position: absolute;
+  left: 16px;
+  bottom: 26px;
+  width: 32px;
+  height: 32px;
 }
 
+.product-select {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 9px;
+  margin: -10px 0 0 0;
+}
 
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+.header-text {
+  font-size: 1.6rem;
+  color: rgba(0, 200, 83, 1);
+  background: linear-gradient(97.89deg, #00c853 -11.68%, #00c8b7 86.16%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 10px 0 1px 0;
+}
 
+.header-description {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: rgba(29, 29, 31, 0.5);
+  margin: 0 0 16px 0;
+}
 
+.products {
+  margin: 0 0 0 16px;
+}
 
+.product {
+  display: inline-block;
+  border: 1px solid #00c853;
+  border-radius: 9px;
+  padding: 4px 6px 4px 6px;
+  margin: 0 2px 8px 0;
+}
 
+.product-out-of-stock {
+  display: inline-block;
+  border: 1px solid #eceff1;
+  border-radius: 9px;
+  padding: 4px 6px 4px 6px;
+  margin: 0 2px 8px 0;
+}
 
+.product-name {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: rgba(0, 200, 83, 1);
+  background: linear-gradient(97.89deg, #00c853 -11.68%, #00c8b7 86.16%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
+.product-name-out-of-stock {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #eceff1;
+}
 
+.button-down-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.button-down {
+  width: 14px;
+  height: 14px;
+  margin: 5px 0 13px 0;
+}
 
+.amount-select {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 9px;
+  margin: 16px 0 0 0;
+}
 
+.amounts {
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+}
 
+.amount {
+  display: inline-block;
+  border: 1px solid #00c853;
+  border-radius: 9px;
+  padding: 4px 6px 4px 6px;
+  margin: 0 6px 8px 0;
+}
 
+.amount-name {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: rgba(0, 200, 83, 1);
+  background: linear-gradient(97.89deg, #00c853 -11.68%, #00c8b7 86.16%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
+.button-to-basket {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(97.89deg, #00c853 -11.68%, #00c8b7 86.16%);
+  box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 9px;
+  color: #ffffff;
+  margin: 16px 32px 32px 32px;
+}
 
-
-
-
-
+.button-to-basket-text {
+  font-size: 25px;
+  margin: 9px 14px 10px 14px;
+}
 
 .hidden {
   visibility: hidden;
