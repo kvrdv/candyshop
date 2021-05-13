@@ -1,0 +1,19 @@
+{
+  "name": "sneckshop",
+  "version": "1.0.0",
+  "description": "Инстаграм-магазин полезных закусок",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvrdv/sneckshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kvrdv/sneckshop/issues"
+  },
+  "homepage": "https://github.com/kvrdv/sneckshop#readme"
+}
