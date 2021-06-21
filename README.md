@@ -2,7 +2,7 @@
 Инстаграм-магазин полезных закусок
 
 
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](/src/img/info-button.svg)
 Format: ![Alt Text](url)
 
 http://github.com - automatic!
