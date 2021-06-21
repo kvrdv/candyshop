@@ -3,7 +3,7 @@
 
 
 ![GitHub Logo](/src/img/info-button.svg)
-Format: ![Alt Text](url)
+Format: ![Alt Text](/src/img/info-button.svg)
 
 http://github.com - automatic!
 [GitHub](http://github.com)
